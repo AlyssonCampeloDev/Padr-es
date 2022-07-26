@@ -1,0 +1,19 @@
+O que são padrões de projeto?
+º São soluções elegantes para problemas conhecidos recorrentes no desenvolvimento de softwares que foram utilizados e testados no passado e continuam relevantes nos dias atuais.
+
+Padrão escolhido: ADAPTER
+Também conhecido como Wrapper, é um padrão de projeto estrutural, que permite objetos com interfaces incompatíveis colaborarem entre si, converte a interface de um objeto para que outro objeto possa entendê-lo. Um adaptador encobre um dos objetos para esconder a complexidade da conversão acontecendo nos bastidores. O objeto encobrido nem fica ciente do adaptador. Por exemplo, você pode encobrir um objeto que opera em metros e quilômetros com um adaptador que converte todos os dados para unidades imperais tais como pés e milhas. Adaptadores podem não só converter dados em vários formatos, mas também podem ajudar objetos com diferentes interfaces a colaborar.
+
+Vantagem:
+O padrão adapter possui diversas boas práticas de programação orientada a objetos como o uso da composição de objetos, vinculação do cliente a uma interface e não a uma implementação e flexibilidade com o uso de diversos adaptadores.
+
+Desvantagem:
+O código pode tornar-se mais complicado do que deveria ser, uma vez que muitas novas interfaces e classes são introduzidas junto com o padrão.
+
+
+Referências:
+https://refactoring.guru/pt-br/design-patterns
+https://www.devmedia.com.br/conheca-os-padroes-de-projeto/957
+https://imasters.com.br/devsecops/design-patterns-com-javascript-typescript
+
+
